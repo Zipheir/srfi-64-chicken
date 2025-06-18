@@ -5,5 +5,6 @@
      (import chicken)
      (use numbers))
     (chicken-5
-     (import (chicken base) (chicken module))))
+     (import (chicken base) (chicken module)
+             (chicken condition))))
   (include "srfi-64/srfi-64-port.scm"))
